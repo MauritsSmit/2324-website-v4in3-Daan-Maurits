@@ -1,28 +1,90 @@
+*{
+   font-family:georgia;
+   height:100vh;
+}
+
+
 
 header{
-
-  width:900px;
-  height:100px;
+  width:100%;
+  height:7%;
   background-color:#7BC0F5;
 }
 
 nav{
-   width:900px;
-   height:50px;
+   width:100%;
+   height:5%;
    background-color: #000000;
-
+   color: #ffffff;
+   font-size: 3.6vh;
+   text-align:center;
 }
 
-#article1 {
-   Width:800px;
-   height:400px;
+a{
+   text-decoration:none;
+   color:#ffffff;
+}
+
+a:hover{
+   background-color:#7BC0f5;
+   font-size:110%;
+}
+
+
+#article1{
+   Width:50%;
+   height:30%;
    background-color: #4C5F6B;
-   margin: 20px 50px 10px 50px;
+  margin: 1% 25% 1% 25%; 
 }
 
-#alarmen, #cameras{
-Width: 450px;
-height: 450px;
-background-color:black;
+  #cameras, #security{
+Width: 25%;
+height: 30%;
+background-color:grey;
+float:left;
+margin: 1% 24.5% 1% 1%;
 }
 
+
+
+#sloten, #alarmen{
+   Width: 25%;
+   height: 30%;
+   background-color:grey;
+   float:left;
+   margin: 1% 0% 1% 24.5%; 
+}
+
+#sloten {
+   clear: both;
+}
+
+
+footer{
+Width: 100%;
+Height: 30%;
+background-color: #7BC0F5;
+color: white;
+align: center;
+clear:BOTH;
+}
+
+.tekstbovenplaatje{
+   width:100%;
+   height: 4%;
+   background-color:#d0d1d0;
+   color: #595959;
+   font-size: 3vh;
+   text-align: center;
+   margin:0px;
+}
+
+#wrapper{
+   margin:auto;
+}
+
+img{
+   width:100%;
+   height:27%
+}
