@@ -48,18 +48,18 @@ a:hover{
 
 
 
-#eerste2producten, #laatste2producten{
+#eerste2groepen, #laatste2groepen{
    display:flex;
    align-items:flex-start;
    justify-content:center;
 }
 
-  #product1, #product3{
+  #Alarmen, #sloten{
    margin-right:200px;
 }
 
 
- .producten{
+ .groepen{
     height:750px;
     width: 700px;
     margin-bottom:100px; 
