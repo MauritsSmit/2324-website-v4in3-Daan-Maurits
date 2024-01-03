@@ -67,6 +67,8 @@ footer{
       height:50px;
       width:700px;
       background-color:#d0d1d0;
+      text-align:center;
+      font-size:25pt;
    }
   
    .tekstonderplaatje{
@@ -80,13 +82,27 @@ footer{
       height:80%;
    }
    
-   a{
+   .a-nav{
       text-decoration:none;
       color:#ffffff;
    }
    
-   a:hover{
+   .a-nav:hover{
       background-color:#7BC0f5;
       font-size:110%;
    }
    
+
+   a{
+      color:#595959;
+      text-decoration:none;
+
+
+   }
+
+   a:hover{
+      text-decoration:underline;
+      font-size:33pt;
+   }
+
+
