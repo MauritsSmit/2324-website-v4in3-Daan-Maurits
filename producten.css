@@ -30,3 +30,16 @@ header{
     text-align:center;
     clear:both;
  }
+
+ #informatie {
+  width:87%;
+  min-height:200px;
+  background-color: #4C5F6B;
+ margin: 30px auto 30px auto;
+ }
+
+ #beschrijving producten {
+  width:40%;
+  background-color: #d0d1d0
+
+ }
