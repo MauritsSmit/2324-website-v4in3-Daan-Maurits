@@ -6,7 +6,7 @@
 
 header{
    width:100%;
-   height:90px;
+   min-height:90px;
    background-color:#7BC0F5;
    text-align:center;
    line-height:90px;
@@ -14,10 +14,10 @@ header{
 
  nav{
    width:100%;
-   height:60px;
+   min-height:60px;
    background-color: #000000;
    color: #ffffff;
-   font-size: 3.6vh;
+   font-size: 35px;
    text-align:center;
    line-height:60px;
 }
@@ -33,31 +33,25 @@ footer{
 
    #informatie{
       width:87%;
-      height:200px;
+      min-height:200px;
       background-color: #4C5F6B;
      margin: 30px auto 30px auto;
      
    }
   
-
-   #eerste2producten{
-     display:flex;
-     justify-content:center;
+#eerste2producten{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly;
+   
 }
-
-    #product1{
-     margin-right:200px;
-}
-
 #product3{
    display:flex;
    justify-content:center;
-   
 }
-
    .producten{
-      height:900px;
-      width: 700px;
+      height:700px;
+      width: 500px;
       float:left;
       margin-bottom:100px;
       
@@ -65,7 +59,7 @@ footer{
    
    .tekstbovenplaatje{
       height:50px;
-      width:700px;
+      width:500px;
       background-color:#d0d1d0;
       text-align:center;
       font-size:25pt;
@@ -73,7 +67,7 @@ footer{
   
    .tekstonderplaatje{
       height: 150px;
-      width:700px;
+      width:500px;
       background-color:#d0d1d0;
    }
 
