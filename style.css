@@ -23,7 +23,17 @@ header{
    line-height:60px;
 }
 
+h1{
+   padding:3px;
+}
 
+h2{
+   padding:3px;
+}
+p, li{
+   padding:3px;
+   font-size:15pt;
+}
 
 .a-nav{
    text-decoration:none;
@@ -41,24 +51,26 @@ header{
    min-height:200px;
    background-color: #4C5F6B;
   margin: 30px auto 30px auto;
+  padding:30px;
   
+
 }
 
 #eerste2groepen, #laatste2groepen{
    display:flex;
    flex-wrap:wrap;
    justify-content:space-evenly;
-   
+   overflow:hidden;
 }
 
 .groepen{
-   width:500px;
-   height:550px;
+   width:700px;
+   height:750px;
    margin-bottom:100px;
 }
  .tekstbovenplaatje{
     height:50px;
-    width:500px;
+    width:700px;
     background-color:#d0d1d0;
     text-align:center;
     font-size: 25pt;

@@ -1,6 +1,6 @@
 *{
    font-family:georgia;
-  
+   
    margin:0px;
 }
 
@@ -24,7 +24,7 @@ header{
 
 footer{
    Width: 100%;
-   Height: 200px;
+   height: 200px;
    background-color: #7BC0F5;
    color: white;
    text-align:center;
@@ -33,12 +33,24 @@ footer{
 
    #informatie{
       width:87%;
-      min-height:200px;
+      
       background-color: #4C5F6B;
      margin: 30px auto 30px auto;
+     padding:30px;
      
+   
    }
   
+   h1{
+      padding:3px;
+    }
+    
+    
+    p{
+      padding:3px;
+      font-size:15pt;
+    }
+
 #eerste2producten{
    display:flex;
    flex-wrap:wrap;
@@ -48,18 +60,19 @@ footer{
 #product3{
    display:flex;
    justify-content:center;
+   
 }
    .producten{
-      height:700px;
-      width: 500px;
+      height:900px;
+      width: 700px;
       float:left;
       margin-bottom:100px;
-      
+      overflow:hidden;
    }
    
    .tekstbovenplaatje{
       height:50px;
-      width:500px;
+      width:700px;
       background-color:#d0d1d0;
       text-align:center;
       font-size:25pt;
@@ -67,7 +80,7 @@ footer{
   
    .tekstonderplaatje{
       height: 150px;
-      width:500px;
+      width:700px;
       background-color:#d0d1d0;
    }
 
