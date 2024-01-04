@@ -10,6 +10,7 @@ header{
     background-color:#7BC0F5;
     text-align:center;
     line-height:90px;
+    font-size: 15pt;
   }
 
   nav{
@@ -20,10 +21,8 @@ header{
     font-size: 3.6vh;
     text-align:center;
     line-height:60px;
+    text-decoration: none;
  }
-
- 
-
 
  footer{
     Width: 100%;
@@ -37,12 +36,31 @@ header{
  #informatie {
   width:87%;
   min-height:200px;
-  background-color: #4C5F6B;
+  background-color: #d0d1d0;
  margin: 30px auto 30px auto;
  }
 
  #beschrijving producten {
   width:40%;
   background-color: #d0d1d0
+}
 
+a{
+  color:#595959;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+  font-size:33pt;
+}
+
+.a-nav {
+  background-color:#7BC0f5;
+      font-size:110%;
+}
+
+nav:hover {
+  background-color:#7BC0f5;
+  font-size:110%;
  }
