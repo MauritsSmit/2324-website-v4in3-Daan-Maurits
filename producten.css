@@ -55,12 +55,14 @@ a:hover{
   font-size:33pt;
 }
 
-.a-nav {
-  background-color:#7BC0f5;
-      font-size:110%;
+.a-nav{
+  text-decoration:none;
+  color:#ffffff;
 }
 
-nav:hover {
+.a-nav:hover{
   background-color:#7BC0f5;
   font-size:110%;
+}
+
  }
