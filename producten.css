@@ -40,9 +40,12 @@ header{
  margin: 30px auto 30px auto;
  }
 
- #beschrijving producten {
-  width:40%;
-  background-color: #d0d1d0
+ #beschrijvingproducten {
+  height:500px;
+  width:30%;
+  background-color: #d0d1d0;
+  float:right;
+  text-align: center;
 }
 
 a{
@@ -65,5 +68,12 @@ a:hover{
   background-color:#7BC0f5;
   font-size:110%;
 }
+
+img{
+  padding-left: 5%;
+  width:20px;
+  height:20%;
+}
+
 
  
