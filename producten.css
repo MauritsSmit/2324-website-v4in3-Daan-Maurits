@@ -46,13 +46,14 @@ header{
 }
 
 a{
-  color:#595959;
+  color:#ffffff;
   text-decoration:none;
 }
 
 a:hover{
   text-decoration:underline;
   font-size:33pt;
+  background-color: #7BC0F5;
 }
 
 .a-nav{
@@ -65,4 +66,4 @@ a:hover{
   font-size:110%;
 }
 
- }
+ 
