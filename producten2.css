@@ -1,0 +1,113 @@
+*{
+   font-family:georgia;
+   margin:0px;
+}
+
+header{
+    width:100%;
+    min-height:90px;
+    background-color:#7BC0F5;
+    text-align:center;
+    line-height:90px;
+    font-size: 30pt;
+  }
+ 
+  nav{
+    width:100%;
+    min-height:60px;
+   
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25pt;  
+    text-align:center; 
+    line-height:60px;
+ }
+
+ #naamproduct{
+    width:87%;
+   min-height:50px;
+   background-color: #4C5F6B;
+  margin: 30px auto 30px auto;
+  padding:30px;
+  text-align:center;
+  font-size:30pt;
+ }
+
+ #plaatjeitem{
+   width:700px;
+   height:400px;
+   margin:10px;
+ }
+
+ #informatieproduct{
+    Width:700px;
+    height:400px;
+    background-color: #d0d1d0;
+    margin:10px;
+ }
+
+ #reviews{
+    width:700px;
+    height:800px;
+    background-color:#d0d1d0; 
+ 
+    margin:10px;
+}
+
+#klikvoormeer{
+   margin-bottom:50px;
+}
+
+
+#extras{
+    Width:670px;
+    height:770px;
+    background-color:#d0d1d0;
+    
+    margin:10px;
+   padding:15px;
+   display:flex;
+   flex-wrap:nowrap;
+   flex-direction:column;
+   justify-content: flex-end;
+   align-items:center;
+}
+
+img{
+   width:300px;
+   height:300px;
+   
+}
+
+#ondersteplaatje{
+   padding-top:50px;
+}
+#informatief{
+  
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  
+}
+
+ footer{
+    Width: 100%;
+    Height: 200px;
+    background-color: #7BC0F5;
+    color: white;
+    text-align:center;
+    clear:both;
+    }
+
+  
+
+   .a-nav{
+      text-decoration:none;
+      color:#ffffff;
+   }
+   
+   .a-nav:hover{
+      background-color:#7BC0f5;
+      font-size:110%;
+   }
+   
