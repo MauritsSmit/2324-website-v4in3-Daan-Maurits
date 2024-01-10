@@ -93,11 +93,13 @@ footer{
    .a-nav{
       text-decoration:none;
       color:#ffffff;
+      transition-duration:0.2s;
    }
    
    .a-nav:hover{
       background-color:#7BC0f5;
-      font-size:110%;
+     
+      transform: scale(110%);
    }
    
 
