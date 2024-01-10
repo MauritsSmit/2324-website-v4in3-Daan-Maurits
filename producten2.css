@@ -78,7 +78,7 @@ p{
    align-items:center;
 }
 
-img{
+img, #ondersteplaatje{
    width:300px;
    height:300px;
    
@@ -126,6 +126,6 @@ img{
 
   h3{
    text-align:center;
-   margin-bottom:2px;
+   margin: 5px 0px 5px 0px;
 
   }
