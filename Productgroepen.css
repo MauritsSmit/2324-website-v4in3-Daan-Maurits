@@ -113,3 +113,11 @@ footer{
       font-size:33pt;
    }
 
+   .img{
+      transition-duration:0.25s;
+   }
+   
+   .img:hover{
+      transform:scale(107%);
+      
+   }

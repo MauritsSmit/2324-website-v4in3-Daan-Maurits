@@ -68,7 +68,8 @@ p, li{
 .groepen{
    width:700px;
    height:750px;
-   margin-bottom:100px;
+   
+   padding:20px;
 }
  .tekstbovenplaatje{
     height:50px;
@@ -84,6 +85,7 @@ p, li{
  img{
     width:700px;
     height:700px;
+    
  }
 
 
@@ -113,3 +115,11 @@ a:hover{
    font-size:33pt;
 }
 
+.img{
+   transition-duration:0.25s;
+}
+
+.img:hover{
+   transform:scale(107%);
+   
+}

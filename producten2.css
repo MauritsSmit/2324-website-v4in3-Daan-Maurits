@@ -12,6 +12,11 @@ header{
     font-size: 30pt;
   }
  
+p{
+   font-size:12pt;
+   line-height:20px;
+}
+
   nav{
     width:100%;
     min-height:60px;
@@ -111,3 +116,16 @@ img{
       font-size:110%;
    }
    
+
+  table{
+   border:black;
+   border-collapse:collapse;
+   margin:auto;
+   background-color:white;
+  }
+
+  h3{
+   text-align:center;
+   margin-bottom:2px;
+
+  }
