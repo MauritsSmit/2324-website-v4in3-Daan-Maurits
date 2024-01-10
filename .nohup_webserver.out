@@ -17,6 +17,7 @@ Available on:
   http://172.16.5.4:8080
 Hit CTRL-C to stop the server
 
+<<<<<<< HEAD
 [2024-01-10T15:49:06.415Z]  "GET /?vscodeBrowserReqId=1704901743242" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 (node:752) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
 (Use `node --trace-deprecation ...` to show where the warning was created)
@@ -3522,3 +3523,5 @@ Hit CTRL-C to stop the server
 [2024-01-10T18:37:05.387Z]  "GET /producten2.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 [2024-01-10T18:37:05.407Z]  "GET /plaatjes/Deurstopper%20alarm%20(alarm%201).jpg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 [2024-01-10T18:37:05.409Z]  "GET /plaatjes/koolstofmonoxidealarm.jpg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+=======
+>>>>>>> eeaf07d (syncen)
