@@ -1,6 +1,7 @@
 *{
    font-family:georgia;
    margin:0px;
+   
 }
 
 
@@ -44,7 +45,7 @@ p, li{
 
 .a-nav:hover{
    background-color:#7BC0f5;
-   transform:scale(110%);
+   transform:scale(1.1);
 }
 
 
@@ -120,6 +121,6 @@ a:hover{
 }
 
 .img:hover{
-   transform:scale(107%);
+   transform:scale(1.04);
    
 }

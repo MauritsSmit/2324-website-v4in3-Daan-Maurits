@@ -48,7 +48,7 @@ footer{
      #knop{
         width:700px;
        
-        padding:30px;
+        padding:40px;
         margin:100px auto 100px auto;
         border:10px solid black;
         border-radius:20px;
@@ -56,14 +56,21 @@ footer{
         font-size:30pt;
         text-align:center;
         transition-duration:0.4s;
+        
      }
 
      #knop:hover{
-        transform:translatey(-30px);
+      transform:translatey(-40px);
      }
 
 
      a{
         text-decoration:none;
         color:black;
+     }
+
+     a:hover{
+      background-color:#7BC0F5;
+      font-size:35pt;
+      text-decoration:underline;
      }
