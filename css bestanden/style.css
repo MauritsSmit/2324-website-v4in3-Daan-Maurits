@@ -46,6 +46,7 @@ p, li{
 .a-nav:hover{
    background-color:#7BC0f5;
    transform:scale(1.1);
+   text-decoration:none;
 }
 
 
@@ -124,3 +125,6 @@ a:hover{
    transform:scale(1.04);
    
 }
+
+
+/* flexbox is gebruikt in plaats van float */

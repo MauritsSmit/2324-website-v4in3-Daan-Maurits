@@ -118,6 +118,7 @@ img, #ondersteplaatje{
   .a-nav:hover{
       background-color:#7BC0f5;
       transform:scale(1.1);
+      text-decoration:none;
       
    }
    
@@ -151,6 +152,8 @@ a{
    text-decoration:none;
 }
 a:hover{
-   text-decoration:underline;
+   text-decoration;underline;
    font-size:35pt;
 }
+
+/* flexbox is gebruikt in plaats van float */

@@ -72,5 +72,8 @@ footer{
      a:hover{
       background-color:#7BC0F5;
       font-size:35pt;
-      text-decoration:underline;
+      
      }
+
+
+     /* flexbox is gebruikt in plaats van float */
