@@ -89,7 +89,7 @@ img{
 
 footer{
    Width: 100%;
-   Height: 200px;
+   min-Height: 200px;
    background-color: #7BC0F5;
    color: white;
    text-align:center;

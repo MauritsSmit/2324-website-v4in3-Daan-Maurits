@@ -1,6 +1,7 @@
 *{
    font-family:georgia;
    margin:0;
+   
 }
 
 header{
@@ -24,12 +25,14 @@ nav{
 
 footer{
    Width: 100%;
-   height: 200px;
+   min-height: 200px;
    background-color: #7BC0F5;
    color: white;
    text-align:center;
    clear:both;
 }
+
+
 
 #informatie{
    width:87%;
