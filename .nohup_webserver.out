@@ -17,6 +17,7 @@ Available on:
   http://172.16.5.4:8080
 Hit CTRL-C to stop the server
 
+<<<<<<< HEAD
 [2024-01-11T07:17:31.864Z]  "GET /?vscodeBrowserReqId=1704957449936" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 (node:826) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
 (Use `node --trace-deprecation ...` to show where the warning was created)
@@ -378,3 +379,5 @@ Hit CTRL-C to stop the server
 [2024-01-11T11:31:58.702Z]  "GET /plaatjes/infrarooddomecamera.jpg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 [2024-01-11T11:31:58.706Z]  "GET /plaatjes/rookmeldercamera.jpg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 >>>>>>> 4d6918e (syncen)
+=======
+>>>>>>> 42ced8e (d)
