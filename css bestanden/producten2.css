@@ -156,4 +156,20 @@ a:hover{
    font-size:35pt;
 }
 
+ol {
+   text-align: center;
+   list-style-position: inside;
+ }
+.mailen{
+   font-size:25pt;
+   color:lightgray;
+   
+}
+
+.mailen:hover{
+   text-decoration:none;
+   font-size:27pt;
+}
+
+
 /* flexbox is gebruikt in plaats van float */
