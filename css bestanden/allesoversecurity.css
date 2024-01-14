@@ -1,8 +1,7 @@
 *{
-    margin:0px;
+    margin:0;
     font-family:georgia;
 }
-
 
 footer{
     Width: 100%;
@@ -11,85 +10,77 @@ footer{
     color: white;
     text-align:center;
     clear:both;
-    }
+}
 
-    header{
-        width:100%;
-        min-height:90px;
-        background-color:#7BC0F5;
-        text-align:center;
-        line-height:90px;
-        font-size: 30pt;
-      }
+header{
+    width:100%;
+    min-height:90px;
+    background-color:#7BC0F5;
+    text-align:center;
+    line-height:90px;
+    font-size: 30pt;
+}
      
-      nav{
-        width:100%;
-        min-height:60px;
-       
-        background-color: #000000;
-        color: #ffffff;
-        font-size: 25pt;  
-        text-align:center; 
-        line-height:60px;
-     } 
+nav{
+    width:100%;
+    min-height:60px;    
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25pt;  
+    text-align:center; 
+    line-height:60px;
+} 
 
-     .a-nav{
-        text-decoration:none;
-        color:#ffffff;
-        transition-duration:0.2s;
-     }
+.a-nav{
+    text-decoration:none;
+    color:#ffffff;
+    transition-duration:0.2s;
+}
      
-     .a-nav:hover{
-        
-        transform:scale(110%)
-     }
+.a-nav:hover{ 
+    transform:scale(110%)
+}
      
+#knop{
+    width:700px;
+    padding:40px;
+    margin:100px auto 100px auto;
+    border:10px solid black;
+    border-radius:20px;
+    background-color:#d1d0d1;
+    font-size:30pt;
+    text-align:center;
+    transition-duration:0.4s;   
+}
 
-     #knop{
-        width:700px;
-       
-        padding:40px;
-        margin:100px auto 100px auto;
-        border:10px solid black;
-        border-radius:20px;
-        background-color:#d1d0d1;
-        font-size:30pt;
-        text-align:center;
-        transition-duration:0.4s;
-        
-     }
+#knop:hover{
+    transform:translatey(-40px);
+}
 
-     #knop:hover{
-      transform:translatey(-40px);
-     }
+a{
+    text-decoration:none;
+    color:black;
+}
 
+a:hover{
+    background-color:#7BC0F5;
+    font-size:35pt;
+}
 
-     a{
-        text-decoration:none;
-        color:black;
-     }
-
-     a:hover{
-      background-color:#7BC0F5;
-      font-size:35pt;
-      
-     }
-
-     ol {
-      text-align: center;
-      list-style-position: inside;
-    }
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
     
-     .mailen{
-      font-size:25pt;
-      color:lightgray;
-      
-   }
+.mailen{
+    font-size:25pt;
+    color:lightgray;   
+}
    
-   .mailen:hover{
-      text-decoration:none;
-      font-size:27pt;
-   }
+.mailen:hover{
+    text-decoration:none;
+    font-size:27pt;
+}
    
 
      /* flexbox is gebruikt in plaats van float */

@@ -1,7 +1,6 @@
 *{
    font-family:georgia;
-   
-   margin:0px;
+   margin:0;
 }
 
 header{
@@ -11,9 +10,9 @@ header{
    text-align:center;
    line-height:90px;
    font-size: 30pt;
- }
+}
 
- nav{
+nav{
    width:100%;
    min-height:60px;
    background-color: #000000;
@@ -30,113 +29,105 @@ footer{
    color: white;
    text-align:center;
    clear:both;
-   }
+}
 
-   #informatie{
-      width:87%;
-      
-      background-color: #4C5F6B;
-     margin: 30px auto 30px auto;
-     padding:30px;
-     
-   
-   }
+#informatie{
+   width:87%;
+   background-color: #4C5F6B;
+   margin: 30px auto 30px auto;
+   padding:30px;
+}
   
-   h1{
-      padding:3px;
-    }
-    
-    
-    p{
-      padding:3px;
-      font-size:15pt;
-    }
+h1{
+   padding:3px;
+}
+      
+p{
+   padding:3px;
+   font-size:15pt;
+}
 
 #eerste2producten{
    display:flex;
    flex-wrap:wrap;
-   justify-content:space-evenly;
-   
+   justify-content:space-around; 
 }
+
 #product3{
    display:flex;
-   justify-content:center;
-   
+   justify-content:center; 
 }
-   .producten{
-      height:900px;
-      width: 700px;
-      float:left;
-      margin-bottom:100px;
-      overflow:hidden;
-   }
+
+.producten{
+   height:900px;
+   width: 700px;
+   float:left;
+   margin-bottom:100px;
+   overflow:hidden;
+}
    
-   .tekstbovenplaatje{
-      height:50px;
-      width:700px;
-      background-color:#d0d1d0;
-      text-align:center;
-      font-size:25pt;
-   }
+.tekstbovenplaatje{
+   height:50px;
+   width:700px;
+   background-color:#d0d1d0;
+   text-align:center;
+   font-size:25pt;
+}
   
-   .tekstonderplaatje{
-      min-height:50px;
-      width:700px;
-      background-color:#d0d1d0;
-   }
+.tekstonderplaatje{
+   min-height:50px;
+   width:700px;
+   background-color:#d0d1d0;
+}
 
-   img{
-      width:700px;
-      height:700px;
-   }
+img{
+   width:700px;
+   height:700px;
+}
    
-   .a-nav{
-      text-decoration:none;
-      color:#ffffff;
-      transition-duration:0.2s;
-   }
+.a-nav{
+   text-decoration:none;
+   color:#ffffff;
+   transition-duration:0.2s;
+}
    
-   .a-nav:hover{
-      background-color:#7BC0f5;
-     text-decoration:none;
-      transform: scale(1.1);
-   }
+.a-nav:hover{
+   background-color:#7BC0f5;
+   text-decoration:none;
+   transform: scale(1.1);
+}
    
+a{
+   color:#595959;
+   text-decoration:none;
+}
 
-   a{
-      color:#595959;
-      text-decoration:none;
+a:hover{
+   text-decoration:underline;
+   font-size:33pt;
+}
 
-
-   }
-
-   a:hover{
-      text-decoration:underline;
-      font-size:33pt;
-   }
-
-   .img{
-      transition-duration:0.25s;
-   }
+.img{
+   transition-duration:0.25s;
+}
    
-   .img:hover{
-      transform:scale(1.04);
-   }
+.img:hover{
+   transform:scale(1.04);
+}
 
-   ol {
-      text-align: center;
-      list-style-position: inside;
-    }
+ol {
+   text-align: center;
+   list-style-position: inside;
+}
     
-   .mailen{
-      font-size:25pt;
-      color:lightgray;
-      
-   }
+.mailen{
+   font-size:25pt;
+   color:lightgray;  
+}
    
-   .mailen:hover{
-      text-decoration:none;
-      font-size:27pt;
-   }
+.mailen:hover{
+   text-decoration:none;
+   font-size:27pt;
+}
    
    /* flexbox is gebruikt in plaats van float */
